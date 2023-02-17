@@ -1,11 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* stdio for input and output function */
+
+/*
+* stdio for input and output function
+* main - Entry point
+*/
 
 /**
-* main: checks value of number if it's positive, negative or zero
-* conditions: using  if, else-if, else statements
+* main - checks value if its positive, negative, or zero
+* description: checks value of random number
 * Return: always retuns 0 on success
 */
 int main(void)
