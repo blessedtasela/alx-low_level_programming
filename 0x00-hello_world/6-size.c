@@ -18,15 +18,15 @@
 int main(void)
 {
 	char a;
-	int b = sizeof(b);
-	long int c = sizeof(c);
-	long long int d = sizeof(d);
+	int b;
+	long int c;
+	long long int d;
 	float e;
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(a));
-	printf("Size of an int: %d byte(s)\n", b);
-	printf("Size of a long int: %ld byte(s)\n", c);
-	printf("Size of a long long int: %lld byte(s)\n", d);
+	printf("Size of an int: %zu byte(s)\n", sizeof(b));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(c));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
 	printf("Size of a float: %zu byte (s)\n", sizeof(e));
 	return (0);
 }
