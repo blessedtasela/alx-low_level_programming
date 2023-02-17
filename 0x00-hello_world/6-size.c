@@ -10,8 +10,6 @@
 */
 
 /**
-* main - printf: prints the value of a string of characters
-*
 * Return: the value of printf
 */
 int main(void)
