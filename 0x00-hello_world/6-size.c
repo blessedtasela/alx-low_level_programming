@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h>
 
 /*
 * stdio libary for input and output
