@@ -2,10 +2,18 @@
 #include <string.h>
 
 /*
-*main - Entry point
+* stdio libary for input and output
 *
-*Return: always 0 (sucess)
+* string library for char and puts function
 *
+* main - Entry point
+*
+*/
+
+/**
+* main - puts: prints the value of a string of characters
+*
+* Return: the value of strcpy
 */
 int main(void)
 {
@@ -13,5 +21,4 @@ int main(void)
 
 	strcpy(string, "\"Programming is like building a multilingual puzzle");
 	puts(string);
-	return (0);
 }
