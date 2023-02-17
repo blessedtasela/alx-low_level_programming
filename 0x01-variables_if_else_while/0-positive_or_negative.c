@@ -5,7 +5,7 @@
 
 /**
 * main: checks value of number if it's positive, negative or zero
-* conditions: if, else-if, else statements used
+* conditions: using  if, else-if, else statements
 * Return: always retuns 0 on success
 */
 int main(void)
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (n == 0)
 	{
-	printf("%d is Zero\n", n);
+	printf("%d is zero\n", n);
 	}
 	else
 	printf("%d is negative\n", n);
