@@ -20,8 +20,8 @@ int main(void)
 {
 	char a;
 	int b = sizeof(b);
-	long c = sizeof(c);
-	long long d = sizeof(d);
+	long int c = sizeof(c);
+	long long int d = sizeof(d);
 	float e;
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(a));
