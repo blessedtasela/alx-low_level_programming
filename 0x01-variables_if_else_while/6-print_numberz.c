@@ -11,7 +11,7 @@
 */
 
 /**
-* main - putchar: prints the alpabets in lower case
+* main - putchar: prints the number 0 - 9
 *
 * description: uses putchar function
 *
@@ -22,7 +22,7 @@ int main(void)
 	char i;
 	char line = '\n';
 
-	for (i = 'a' ; i <= 'z' ; i++)
+	for (i = '0' ; i <= '9' ; i++)
 	{
 		putchar(i);
 	}
