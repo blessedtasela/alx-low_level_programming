@@ -11,22 +11,20 @@
 */
 
 /**
-* main - putchar: prints the alpabets in lower case
+* main - putchar: prints the numbers 0 - 9
 *
-* description: uses putchar function
+* description: uses for loop
 *
 * Return: the value of strcpy
 */
 int main(void)
 {
-	unsigned char i = 0x64;
-	char line = '\n';
+	int i;
 
-	for (i = 'z' ; i >= 'a' ; i--)
+	for (i = 0 ; i < 10 ; i++)
 	{
-		putchar(i);
+		printf("%d", i);
 	}
-
-	putchar(line);
+	printf("\n");
 	return (0);
 }
