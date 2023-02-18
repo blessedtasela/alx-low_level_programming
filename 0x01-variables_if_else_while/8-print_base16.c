@@ -19,7 +19,7 @@
 */
 int main(void)
 {
-	char i,j;
+	char i, j;
 	char line = '\n';
 
 	for (i = '0' ; i <= '9' ; i++)
