@@ -19,12 +19,12 @@
 */
 int main(void)
 {
-	char i;
-	char line = '\n';
+	int i;
+	int line = '\n';
 
-	for (i = '0' ; i <= '9' ; i++)
+	for (i = 0 ; i <= 9 ; i++)
 	{
-		putchar(i);
+		putchar((i % 10) + '0');
 	}
 	putchar(line);
 	return (0);
