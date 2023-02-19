@@ -3,13 +3,13 @@
 /*
 * stdio libary for input and output
 *
-* string library for char and puts function
-*
 * main - Entry point
 *
 */
 
 /**
+* main - prints the size of variable type
+* Descrition: uses the sizeof to get size of variable
 * Return: the value of printf
 */
 int main(void)
