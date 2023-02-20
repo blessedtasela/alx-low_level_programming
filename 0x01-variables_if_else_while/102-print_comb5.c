@@ -11,26 +11,32 @@
 */
 
 /**
-* main - putchar: prints the numbers 0 - 9
+* main - prints possible combination of numbers less than 100 two-two digits
 *
-* description: uses for loop
+* description: uses for loop, putchar
 *
-* Return: the value of strcpy
+* Return: returns 0 on sucess
 */
 int main(void)
 {
 	int i, j;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0 ; i < 100 ; i++)
 	{
-		for (j = 0 ; j < i ; j++)
+		for (j = 0 ; j < 100 ; j++)
 		{
-		putchar((j % 10) + '0');
+		if (i < j)
+		{
+		putchar((j / 10) + '0');
 		putchar((i % 10) + '0');
-		if (i == 9 && j == i-1)
+		putchar(' ');
+		putchar((i / 10) + '0');
+		putchar((j % 10) + '0');
+		if (i == 98 && j == 99)
 		break;
 		putchar(',');
 		putchar(' ');
+		}
 		}
 	}
 	putchar('\n');
