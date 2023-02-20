@@ -4,18 +4,16 @@
 /*
 * stdio libary for input and output
 *
-* string library for char and puts function
-*
 * main - Entry point
 *
 */
 
 /**
-* main - putchar: prints the numbers 0 - 9
+* main - prints the numbers 0 - 9
 *
-* description: uses for loop
+* description: uses for loop, printf function
 *
-* Return: the value of strcpy
+* Return: reurns 0 on success
 */
 int main(void)
 {

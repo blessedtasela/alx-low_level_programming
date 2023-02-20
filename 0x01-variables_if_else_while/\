@@ -11,9 +11,9 @@
 */
 
 /**
-* main - prints possible combination of numbers less than 100
+* main - putchar: prints the numbers 0 - 89
 *
-* description: uses for loop, putchar
+* description: uses for loop
 *
 * Return: the value of strcpy
 */
@@ -25,15 +25,12 @@ int main(void)
 	{
 		for (j = i ; j < 10 ; j++)
 		{
-		if (i < j)
-		{
-		putchar('0' + i);
 		putchar('0' + j);
+		putchar('0' + i);
 		if (i == 9 && j == i-1)
 		break;
 		putchar(',');
 		putchar(' ');
-		}
 		}
 	}
 	putchar('\n');
