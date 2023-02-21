@@ -4,16 +4,14 @@
 */
 
 /**
-* main - prints '_putchar'
-*
-* description: uses _putchar function
-*
+* print_alphabet - from a to z fuction definition
+* description: function definition set for procedure
 * Return: retuns 0 on success
 */
 
 void print_alphabet(void)
 {
-	int i='a';
+	int i = 'a';
 
 	while (i <= 'z')
 	{
