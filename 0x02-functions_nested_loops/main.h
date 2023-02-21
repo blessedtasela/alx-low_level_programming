@@ -1,6 +1,6 @@
 #include <unistd.h>
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef HEADER_FILE
+#define HEADER_FILE
 
 /*
 * description: declares prototype for function declaration
