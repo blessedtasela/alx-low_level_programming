@@ -1,21 +1,17 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
 #include "main.h"
-#endif
 /*
-* stdio.h for input/output
+* main.h for input/output
 */
 
 /**
 * main - prints '_putchar'
 *
-* description: uses puts function
+* description: uses _putchar function
 *
 * Return: retuns 0 on success
 */
 int main(void)
 {
-
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
