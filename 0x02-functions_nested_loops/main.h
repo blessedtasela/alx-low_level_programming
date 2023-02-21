@@ -2,6 +2,6 @@
 
 int _putchar(char i[])
 {
-write(1, i,11);
-return (0);
+return (write(1, i,11));
+
 }
