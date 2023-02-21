@@ -1,5 +1,7 @@
+#ifndef HEADER_FILE
+#define HEADER_FILE
 #include "main.h"
-
+#endif
 /*
 * stdio.h for input/output
 */
