@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /*
 * stdio.h for input/output
