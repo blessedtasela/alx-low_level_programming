@@ -4,7 +4,7 @@
 */
 
 /**
-* _islower - checks for alphabets
+* _isalpha - checks for alphabets
 * description: function definition set for procedure
 * @c: charcter to be checked
 * Return: retun 1 on true and 0 if false
