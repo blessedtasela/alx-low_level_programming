@@ -1,7 +1,7 @@
 #include <unistd.h>
 
-int _putchar(char i[])
+int _putchar(char i)
 {
-return (write(1, i,11));
+return (write(1, &i,1));
 
 }
