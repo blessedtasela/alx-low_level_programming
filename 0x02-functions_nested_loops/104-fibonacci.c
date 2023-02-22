@@ -17,14 +17,13 @@
 */
 int main(void)
 {
-	int i, num1 = 0, num2 = 1, fb, fdigit;
+	int i, num1 = 0, num2 = 1, fb;
 
 		for (i = 1 ; i <= 98 ; i++)
 		{
 		fb = num1 + num2;
 		num1 = num2;
 		num2 = fb;
-		fdigit = fb;
 		printf("%d, ", fb);
 		}
 		printf("\n");
