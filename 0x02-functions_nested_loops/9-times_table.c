@@ -16,20 +16,31 @@
 */
 void times_table(void)
 {
-	int k, a, i = 9;
+	int table, a, i, j = 0;
 	
 	for (a = 0 ; a < 10 ; a++)
 	{
-	_putchar(a + '0');
 	for (i = 0 ; i < 10 ; i++)
 	{
-		a = i + 1;
-		k = i * a;
-		_putchar((k / 10) + '0');
-		_putchar((k % 10) + '0');
+		
+		table = i * j;
+		if (table / 10 == 0)
+		{
+		_putchar(' ');
+		_putchar((table % 10) + '0');
+		}
+		else
+		{
+		_putchar((table / 10) + '0');
+		_putchar((table % 10) + '0');
+		}
+		if (i != 9)
+		{ 
 		_putchar(',');
 		_putchar(' ');
+		}
 	}
+	j = j + 1;
 	_putchar('\n');
 	}
 }
