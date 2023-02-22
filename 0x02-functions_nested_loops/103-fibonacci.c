@@ -24,6 +24,8 @@ int main(void)
 		fb = num1 + num2;
 		num1 = num2;
 		num2 = fb;
+		if (fb > 4000000)
+		break;
 		if (fb % 2 == 0)
 		sum = sum + fb;
 		}
