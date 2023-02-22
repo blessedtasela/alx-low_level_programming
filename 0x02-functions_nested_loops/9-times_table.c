@@ -10,21 +10,24 @@
 */
 
 /**
-* jack_bauer - procedure used and defined in main.h
+* times_table - prints timetable from 0 - 9
 * description: prints hours of time from 00:00 to 23:59
 * Return: the value of strcpy
 */
 void times_table(void)
 {
 	int table, a, i, j = 0;
-	
+
 	for (a = 0 ; a < 10 ; a++)
 	{
 	for (i = 0 ; i < 10 ; i++)
 	{
-		
 		table = i * j;
-		if (table / 10 == 0)
+		if (table / 10 == 0 && i == 0)
+		{
+		_putchar((table % 10) + '0');
+		}
+		else if (table / 10 == 0)
 		{
 		_putchar(' ');
 		_putchar((table % 10) + '0');
@@ -35,7 +38,7 @@ void times_table(void)
 		_putchar((table % 10) + '0');
 		}
 		if (i != 9)
-		{ 
+		{
 		_putchar(',');
 		_putchar(' ');
 		}
