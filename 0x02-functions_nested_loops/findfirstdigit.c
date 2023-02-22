@@ -25,6 +25,11 @@ int main(void)
 		num1 = num2;
 		num2 = fb;
 		fdigit = fb;
+		while (fdigit >= 10)
+		{
+		fdigit = fdigit / 10;
+		}
+		if (fdigit == 1 || fdigit == 2)
 		printf("%d, ", fb);
 		}
 		printf("\n");
