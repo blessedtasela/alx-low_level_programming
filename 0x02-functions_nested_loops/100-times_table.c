@@ -1,24 +1,15 @@
 #include "main.h"
 
-/*
-* stdio libary for input and output
-*
-* string library for char and puts function
-*
-* main - Entry point
-*
-*/
-
 /**
-* print_times_table - prints timetable from 0 - 9
-* description: prints hours of time from 00:00 to 23:59
+* print_times_table - prints timetable of given number
+* @n: number of table to be printed
 * Return: the value of strcpy
 */
 void print_times_table(int n)
 {
 	int table, a, i, j = 0;
 
-	if (n <= 15 && n >=0)
+	if (n <= 15 && n >= 0)
 	{
 	for (a = 0 ; a <= n ; a++)
 	{
@@ -26,9 +17,7 @@ void print_times_table(int n)
 	{
 		table = i * j;
 		if (table / 10 == 0 && i == 0)
-		{
 		_putchar(table + '0');
-		}
 		else if (table / 10 == 0)
 		{
 		_putchar(' ');
