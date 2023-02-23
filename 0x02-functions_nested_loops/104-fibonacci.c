@@ -11,24 +11,49 @@
 */
 
 /**
-* main - print sum of multiples 3 and 5
+* main - print fibonnaci numbers of 98
 * description: uses for loop and if statement
 * Return: return 0 on success
 */
 int main(void)
 {
-	int i;
-	long int num1 = 0, num2 = 1, fb;
+	int count;
+	unsigned long fib1 = 0, fib2 = 1, sum;
+	unsigned long fib1_half1, fib1_half2, fib2_half1, fib2_half2;
+	unsigned long half1, half2;
 
-		for (i = 1 ; i <= 98 ; i++)
+	for (count = 0; count < 92; count++)
+	{
+		sum = fib1 + fib2;
+		printf("%lu, ", sum);
+		fib1 = fib2;
+		fib2 = sum;
+	}
+
+	fib1_half1 = fib1 / 10000000000;
+	fib2_half1 = fib2 / 10000000000;
+	fib1_half2 = fib1 % 10000000000;
+	fib2_half2 = fib2 % 10000000000;
+
+	for (count = 93; count < 99; count++)
+	{
+		half1 = fib1_half1 + fib2_half1;
+		half2 = fib1_half2 + fib2_half2;
+		if (fib1_half2 + fib2_half2 > 9999999999)
 		{
-		fb = num1 + num2;
-		num1 = num2;
-		num2 = fb;
-		printf("%lu", fb);
-		if (i < 98)
-		printf(", ");
+			half1 += 1;
+			half2 %= 10000000000;
 		}
-		printf("\n");
-		return (0);
+
+		printf("%lu%lu", half1, half2);
+		if (count != 98)
+			printf(", ");
+
+		fib1_half1 = fib2_half1;
+		fib1_half2 = fib2_half2;
+		fib2_half1 = half1;
+		fib2_half2 = half2;
+	}
+	printf("\n");
+	return (0);
 }
