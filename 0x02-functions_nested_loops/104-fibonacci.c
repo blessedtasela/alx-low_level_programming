@@ -18,7 +18,7 @@
 int main(void)
 {
 	int i;
-	long int num1 = 0, num2 = 1, fb, sum = 0;
+	long int num1 = 0, num2 = 1, fb;
 
 		for (i = 1 ; i <= 98 ; i++)
 		{
