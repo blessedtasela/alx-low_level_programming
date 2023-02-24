@@ -1,16 +1,18 @@
 #include <stdio.h>
 
 /**
- * main - prints largest prime number
+ * main - prints largest prime number void
  *
- * return: return 0 on success
+ * Descrition: arithmetic and logical operation
+ *
+ * Return: 0 on success
  */
 
 int main(void)
 {
-	long num = 612852475143;
-	long divisor = 2;
-	long large_prime = 0;
+	long int num = 612852475143;
+	long int divisor = 2;
+	long int large_prime = 0;
 
 	while (num != 1)
 	{
