@@ -4,9 +4,8 @@
 */
 
 /**
-* print_diagonal - prints n number of \
-* @n: number of \ to be printed
-* description: function definition set for procedure
+* print_diagonal - prints n number of diagonals
+* @n: number of diagonals to be printed
 * Return: retuns 0 on success
 */
 
