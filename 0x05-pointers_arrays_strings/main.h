@@ -12,7 +12,7 @@ int _putchar(char i);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
-int _isdigit(int c);
+int _puts(char *str);
 void print_line(int n);
 void print_square(int size);
 void print_diagonal(int n);
