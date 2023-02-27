@@ -6,13 +6,20 @@
  * Return: return arrayof char
  */
 
-int print_rev(char *s)
+void print_rev(char *s)
 {
-	while (*s > '\0')
+	int i, rev = 0;
+
+	while (*s != '\0')
 	{
-	_putchar(*str);
-	str--;
+	rev = rev + 1;
+	s++;
+	}
+	s--;
+	for (i = rev ; i > 0 ; i--)
+	{
+	_putchar(*s);
+	s--;
 	}
 	_putchar('\n');
-	return (0);
 }
