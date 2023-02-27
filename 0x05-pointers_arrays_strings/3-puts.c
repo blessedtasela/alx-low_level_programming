@@ -6,7 +6,7 @@
  * Return: return arrayof char
  */
 
-int _puts(char *str)
+void _puts(char *str)
 {
 	while (*str != '\0')
 	{
@@ -14,5 +14,4 @@ int _puts(char *str)
 	str++;
 	}
 	_putchar('\n');
-	return (0);
 }
