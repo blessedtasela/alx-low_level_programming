@@ -10,7 +10,7 @@
 
 int _putchar(char i);
 void reset_to_98(int *n);
-void print_most_numbers(void);
+void swap_int(int *a, int *b);
 int _isupper(int c);
 int _isdigit(int c);
 void print_line(int n);
