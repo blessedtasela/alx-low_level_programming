@@ -2,7 +2,7 @@
 
 /**
  * puts_half - returns half of
- * @s: variable to be used
+ * @str: variable to be used
  * Return: return arrayof char
  */
 
@@ -10,7 +10,7 @@ void puts_half(char *str)
 {
 	int string = 0, i, j;
 
-	for ( i = 0 ; str[i] != '\0' ; i++)
+	for (i = 0 ; str[i] != '\0' ; i++)
 	{
 	string++;
 	}
