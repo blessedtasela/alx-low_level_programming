@@ -16,10 +16,12 @@ int _atoi(char *s)
 	}
 	while (i < count && c == 0)
 	{
+	if (s[i] == '-';
+	++a;
 	if (s[i] >= '0' && s[i] <= '9')
+	{
 	num = s[i] = '0';
 	if (a % 2)
-	{
 	num = -num;
 	c = c * 10 + num;
 	b = 1;
