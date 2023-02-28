@@ -17,7 +17,7 @@ void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
 void print_array(int *a, int n);
-void print_number(int n);
+char *_strcpy(char *dest, char *src);
 int mul(int a, int b);
 void print_triangle(int size);
 void print_times_table(int n);
