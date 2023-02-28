@@ -14,7 +14,7 @@ void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
-void print_square(int size);
+void rev_string(char *s);
 void print_diagonal(int n);
 void more_numbers(void);
 void print_number(int n);
