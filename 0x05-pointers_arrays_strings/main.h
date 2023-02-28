@@ -18,7 +18,7 @@ void rev_string(char *s);
 void puts2(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
-int mul(int a, int b);
+int _atoi(char *s);
 void print_triangle(int size);
 void print_times_table(int n);
 
