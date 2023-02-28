@@ -16,7 +16,7 @@ void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
 void puts2(char *str);
-void more_numbers(void);
+void puts_half(char *str);
 void print_number(int n);
 int mul(int a, int b);
 void print_triangle(int size);
