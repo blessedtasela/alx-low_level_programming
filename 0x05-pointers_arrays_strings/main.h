@@ -15,7 +15,7 @@ int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
 void rev_string(char *s);
-void print_diagonal(int n);
+void puts2(char *str);
 void more_numbers(void);
 void print_number(int n);
 int mul(int a, int b);
