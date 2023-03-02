@@ -16,7 +16,7 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *n);
 char *cap_string(char *n);
 char *leet(char *n);
-void puts2(char *str);
+char *rot13(char *n);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
