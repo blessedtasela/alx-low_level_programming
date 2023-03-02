@@ -9,7 +9,7 @@
 */
 
 char *_strcat(char *dest, char *src);
-void reset_to_98(int *n);
+char *_strncat(char *dest, char *src, int n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);
 void _puts(char *str);
