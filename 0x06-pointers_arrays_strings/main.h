@@ -19,8 +19,8 @@ char *leet(char *n);
 char *rot13(char *n);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
-int _atoi(char *s);
-void print_triangle(int size);
+int reverse_string(char *s);
+void print_buffer(char *b, int size);
 void _putchar(char n);
 
 #endif
