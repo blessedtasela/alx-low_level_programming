@@ -17,10 +17,10 @@ char *string_toupper(char *n);
 char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
-void print_array(int *a, int n);
+void print_number(int n);
 char *_strcpy(char *dest, char *src);
 int _atoi(char *s);
 void print_triangle(int size);
-void print_times_table(int n);
+void _putchar(char n);
 
 #endif
