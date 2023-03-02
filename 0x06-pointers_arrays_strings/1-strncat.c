@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * _strcat - concatenates two strings
+ * _strncat - concatenates two strings
  * @dest: first parameter
  * @src: second parameter
+ * @n: value of byte
  * Return: returns the two strings appended to dest
  */
 
