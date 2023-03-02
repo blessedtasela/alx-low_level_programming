@@ -18,7 +18,7 @@ char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
 void print_number(int n);
-char *_strcpy(char *dest, char *src);
+char *infinite_add(char *n1, char *n2, char *r, int size_r);
 int _atoi(char *s);
 void print_triangle(int size);
 void _putchar(char n);
