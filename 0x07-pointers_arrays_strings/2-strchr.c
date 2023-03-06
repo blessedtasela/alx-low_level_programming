@@ -5,7 +5,7 @@
 
 /**
 * _strchr - function that searches for a character in a string
-* @s: string 
+* @s: string
 * @c: value to be searched
 * Return: returns 0 on success
 */
