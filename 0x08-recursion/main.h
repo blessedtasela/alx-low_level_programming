@@ -12,7 +12,7 @@ void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 void reverse_array(int *a, int n);
-char *string_toupper(char *n);
+int factorial(int n);
 char *cap_string(char *n);
 char *leet(char *n);
 char *rot13(char *n);
