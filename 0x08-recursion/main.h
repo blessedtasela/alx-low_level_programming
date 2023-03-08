@@ -9,7 +9,7 @@
 */
 
 void _puts_recursion(char *s);
-char *_strncat(char *dest, char *src, int n);
+void _print_rev_recursion(char *s);
 char *_strncpy(char *dest, char *src, int n);
 int _strcmp(char *s1, char *s2);
 void reverse_array(int *a, int n);
