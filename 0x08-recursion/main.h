@@ -13,7 +13,7 @@ void _print_rev_recursion(char *s);
 int _strlen_recursion(char *s);
 void reverse_array(int *a, int n);
 int factorial(int n);
-char *cap_string(char *n);
+int _pow_recursion(int x, int y);
 char *leet(char *n);
 char *rot13(char *n);
 void print_number(int n);
