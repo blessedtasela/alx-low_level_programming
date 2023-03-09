@@ -16,7 +16,7 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
-void print_number(int n);
+int is_palindrome(char *s);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 int reverse_string(char *s);
 void print_buffer(char *b, int size);
