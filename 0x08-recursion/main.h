@@ -15,7 +15,7 @@ void reverse_array(int *a, int n);
 int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
-char *rot13(char *n);
+int is_prime_number(int n);
 void print_number(int n);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 int reverse_string(char *s);
