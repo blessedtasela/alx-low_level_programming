@@ -15,9 +15,7 @@ int i;
 unsigned int j, sum = 0;
 char *c;
 
-if (argc == 1)
-printf("0\n");
-else
+if (argc > 1)
 {
 for (i = 1 ; i < argc ; i++)
 {
@@ -29,12 +27,13 @@ if (c[j] < 48 || c[j] > 57)
 printf("Error\n");
 return (1);
 }
-else
+}
 sum += atoi(c);
 c++;
 }
-}
 printf("%d\n", sum);
 }
+else
+printf("0\n");
 return (0);
 }
