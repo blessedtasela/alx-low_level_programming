@@ -10,7 +10,7 @@
 
 char *create_array(unsigned int size, char c);
 char *_strdup(char *str);
-void swap_int(int *a, int *b);
+char *str_concat(char *s1, char *s2);
 int _strlen(char *s);
 void _puts(char *str);
 void print_rev(char *s);
