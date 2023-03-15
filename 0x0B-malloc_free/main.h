@@ -14,12 +14,5 @@ char *str_concat(char *s1, char *s2);
 int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
-void rev_string(char *s);
-void puts2(char *str);
-void print_array(int *a, int n);
-char *_strcpy(char *dest, char *src);
-int _atoi(char *s);
-void print_triangle(int size);
-void print_times_table(int n);
-
+char **strtow(char *str);
 #endif
