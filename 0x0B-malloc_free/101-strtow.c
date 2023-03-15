@@ -35,7 +35,7 @@ int count_word(char *str)
 	for (index = 0 ; *(str + index) ; index++)
 	l++;
 
-	for(index = 0 ; index < l ; index++)
+	for (index = 0 ; index < l ; index++)
 	{
 	if (*(str + index) != ' ')
 	{
@@ -74,7 +74,7 @@ char **strtow(char *str)
 	i++;
 
 	letter = word_len(str + i);
-	strings[w] = malloc(sizeof(char)* (letter + 1));
+	strings[w] = malloc(sizeof(char) * (letter + 1));
 	if (strings[w] == NULL)
 	{
 	for (; w >= 0 ; w--)
