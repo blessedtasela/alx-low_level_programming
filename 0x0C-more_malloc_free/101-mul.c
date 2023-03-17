@@ -11,7 +11,8 @@ void add_nums(char *final_prod, char *next_prod, int next_len);
 /**
 * find_len - function that finds length of string
 * @str: string value
-* return: length of the string
+* Description: finds the length of the string in an array
+* Return: return len
 */
 
 int find_len(char *str)
@@ -27,7 +28,7 @@ int find_len(char *str)
 * create_xarray - creates an array of char and initialize it with 'x'
 * @size: size of the array
 * Description: the function exits with status 98 if there is insufficient space
-* return: a pointer to array
+* Return: a pointer to array
 */
 
 char *create_xarray(int size)
@@ -50,7 +51,8 @@ char *create_xarray(int size)
 /**
 * iterate_zeroes - iterates through an array of number to find a non-zero value
 * @str: array of numbers
-* return: return a pointer to the non-zero value
+* Description: finds non-zero values in array
+* Return: return a pointer to the non-zero value
 */
 
 char *iterate_zeroes(char *str)
@@ -174,7 +176,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * main - multiplies two positive numbers
  * @argc: number of arguements
  * @argv: array of pointers to arguements
- * Description: exits with a status 98 if number of aguement is incorrect or has a non-gigit
+ * Description: exits with a status 98 if arguement is incorrect / non-gigit
  * Return: returns 0 on success
  */
 
