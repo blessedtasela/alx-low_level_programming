@@ -12,7 +12,7 @@ int _putchar(char c);
 char *string_nconcat(char *s1, char *s2, unsigned int n);
 void *malloc_checked(unsigned int b);
 void *_calloc(unsigned int nmemb, unsigned int size);
-int _isupper(int c);
+int *array_range(int min, int max);
 int _isdigit(int c);
 int _strlen(char *s);
 void _puts(char *s);
