@@ -1,9 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/*
-* description: declares prototype for function declaration
-*/
+#include <stddef.h>
 /**
 * _putchar: function prototype to print character
 */
