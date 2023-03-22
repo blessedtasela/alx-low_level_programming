@@ -1,7 +1,8 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef FUNCTION_POINTERS_H
+#define FUNCTION_POINTERS_H
 
 #include <stddef.h>
+
 /**
 * _putchar: function prototype to print character
 */
