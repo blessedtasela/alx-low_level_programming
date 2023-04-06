@@ -6,7 +6,7 @@
  * Return: the address of the start of loop node otherwise NULL
  */
 
-listint_t *find_listint_loop(listint *head)
+listint_t *find_listint_loop(listint_t *head)
 {
 	listint_t *tortoise, *hare;
 
