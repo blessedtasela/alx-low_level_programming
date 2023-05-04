@@ -1,0 +1,12 @@
+# BIT MANIPULATION #
+XOR
+
+NOR
+
+AND
+
+OR
+
+NOT
+
+All Bitwise
